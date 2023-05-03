@@ -1,0 +1,41 @@
+- Capstone Project Module 1 -
+- Case Study: Gudang (Data Stok) -
+- Oleh: Kevin Saputra Wijaya Tan (Purwadhika JCDS 2004) -
+
+Capstone Project Module 1 merupakan salah satu dari persyaratan wajib agar siswa dapat melalui tahapan Final Project Bootcamp atau Internship secara sah. Capstone Project Module 1 diberikan setelah siswa menyelesaikan pembelajaran modul 1, yakni dasar pemrograman Python. Capstone Project Module 1 bertujuan untuk mengukur seberapa dalam pemahaman siswa terhadap materi pembelajaran modul 1 dengan mengimplementasikan beberapa fitur ke dalam bentuk mini aplikasi. Salah satu dari fitur utama tersebut dikenal dengan istilah CRUD (Create, Read, Update, Delete). Create adalah fitur untuk menampilkan data, Read adalah fitur untuk membaca data, Update adalah fitur untuk memperbarui data, dan Delete adalah fitur untuk menghapus data.
+
+Dalam Capstone Project Module 1 ini, penulis memilih case study stok gudang dan mencoba untuk menerapkan fitur utama CRUD ke dalam bentuk aplikasi sederhana. Tipe data dummy yang digunakan penulis dibuat dalam bentuk list in dictionary. 5 field (kolom / keys) yang digunakan meliputi: 'Jenis Barang', 'Kode Barang', 'Kategori Barang', 'Jumlah Barang', dan 'Harga Barang'. Dalam situasi ini, 'Jenis Barang' bertindak sebagai keys dan setiap komponen list diwakilkan oleh 'Kode Barang', 'Kategori Barang', 'Jumlah Barang', dan 'Harga Barang'.
+
+Dalam menu utama aplikasi, penulis menyediakan 5 opsi menu sebagai berikut:
+1. Menampilkan Barang di Stok Gudang
+2. Menambah Barang di Stok Gudang
+3. Memperbarui Barang di Stok Gudang
+4. Menghapus Barang di Stok Gudang
+5. Keluar dari Program
+
+Opsi nomor 1 (menampilkan barang) akan memberikan sub menu baru yang berisi:
+1. Tampilkan Seluruh List Barang di Stok Gudang
+2. Tampilkan List Barang di Stok Gudang Berdasarkan Kategori
+3. Kembali ke Menu Utama
+
+Pengguna aplikasi dapat bebas memilih untuk menampilkan seluruh list barang lengkap dengan detailnya, menampilkan list barang yang dipisahkan oleh kategori, atau kembali ke menu utama.
+
+Opsi nomor 2 (menambah barang) memberikan kebebasan kepada pengguna aplikasi untuk menambah list barang ke dalam tabel utama berikut dengan pengisian detail per barang.
+
+Opsi nomor 3 (memperbarui barang) akan memberikan sub menu baru yang berisi:
+1. Ubah Kode Barang
+2. Ubah Jenis Barang
+3. Ubah Kategori Barang
+4. Ubah Jumlah Barang
+5. Ubah Harga Barang
+6. Mutasi Stok Barang Masuk
+7. Mutasi Stok Barang Keluar
+8. Kembali ke Menu Utama
+
+Pengguna aplikasi dapat bebas memilih untuk mengubah kode barang, jenis barang, kategori barang, jumlah barang, harga barang, mutasi stok barang masuk, mutasi stok barang keluar, atau kembali ke menu utama.
+
+Opsi nomor 4 (menghapus barang) memberikan kebebasan kepada pengguna aplikasi untuk menghapus list barang dari tabel utama.
+
+Opsi nomor 5 (keluar dari program) akan membawa pengguna aplikasi ke layar keluar aplikasi.
+
+Dalam pengerjaan mini aplikasi ini, penulis mencoba untuk menambahkan beberapa fungsi selain fitur utama CRUD, seperti 'from prettytable import PrettyTable', 'def parameter', 'if, elif, else statement', 'while loop statement', 'for loop statement', 'break & continue' untuk menunjang integrasi sistem dan efisiensi kode.
